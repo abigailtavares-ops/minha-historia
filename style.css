@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
 :root{
     /* CSS HEX */
---ou-crimson: #880d1eff;
---rusty-red: #dd2d4aff;
---bright-pink-crayola: #f26a8dff;
---amaranth-pink: #f49cbbff;
+--azul: rgb(41, 182, 238);
+--laranja: rgb(201, 111, 9);
+--amarelo : rgb(238, 224, 103);
+--rosa: rgb(241, 147, 180);
+--título:"Dancing Script", cursive;
+--texo:"PT Serif", serif;
+}
+
+body{
+    background-color: var(--rosa);
+    font-family: var(--título);
 }
