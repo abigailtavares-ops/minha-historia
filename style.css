@@ -13,4 +13,9 @@
 body{
     background-color: var(--rosa);
     font-family: var(--título);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
