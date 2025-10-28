@@ -45,3 +45,11 @@ main{
     font-size: 28px;
 }
 
+.passo{
+    display: none;
+}
+
+.ativo{
+    display: block;
+}
+
