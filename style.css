@@ -3,9 +3,9 @@
 :root{
     /* CSS HEX */
 --azul: rgb(41, 182, 238);
---laranja: rgb(240, 168, 85);
---amarelo : rgb(238, 224, 103);
---rosa: rgb(241, 147, 180);
+--laranja: rgb(255, 255, 255);
+--amarelo : rgb(228, 143, 143);
+--rosa: rgb(243, 149, 185);
 --branco: #f1f1f1;
 --título:"Dancing Script", cursive;
 --texo:"PT Serif", serif;
@@ -19,6 +19,13 @@ body{
     justify-content: center;
     margin: 0;
     padding: 0;
+}
+
+main{
+    margin: 40px 20px;
+    max-width: 90%;
+    text-align: center;
+    font-size: 28px;
 }
 
 button{
@@ -38,18 +45,16 @@ button-hover{
     border: 2px solid #000;
     box-shadow: 2px 2px 10px #000;
 }
-main{
-    margin: 40px 20px;
-    max-width: 90%;
-    text-align: center;
-    font-size: 28px;
-}
-
-.passo{
-    display: none;
-}
-
-.ativo{
+ 
+.passo.ativo{
     display: block;
 }
+
+img{
+    width: 40%;
+    border-radius: 15px;
+    box-shadow: 2px 2px 10px black;
+}
+
+
 
